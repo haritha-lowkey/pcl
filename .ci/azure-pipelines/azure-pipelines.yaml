@@ -7,7 +7,6 @@ resources:
 stages:
   - stage: build_ubuntu
     displayName: Build Ubuntu
-    dependsOn: formatting
     jobs:
       - template: build-ubuntu.yaml
 
